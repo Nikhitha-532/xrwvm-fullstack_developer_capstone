@@ -13,7 +13,7 @@ from .restapis import get_request, analyze_review_sentiments
 
 
 # Get an instance of a logger
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 
 
 # Create your views here.
